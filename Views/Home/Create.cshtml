@@ -1,0 +1,32 @@
+﻿@model NinjaCore.Models.User
+@{
+    ViewBag.Title = "Add New User";
+}
+
+<form asp-action="create" asp-controller="home">
+    <div class="form-group">
+        <label asp-for="FirstName" class="control-label">First Name</label>
+        <input asp-for="FirstName" type="text" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="LastName" class="control-label">Last Name</label>
+        <input asp-for="LastName" type="text" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Email" class="control-label">Email</label>
+        <input asp-for="Email" type="email" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="BirthDate" class="control-label">Birth Date</label>
+        <input asp-for="BirthDate" type="date" class="form-control" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-secondary" />
+        <input type="submit" value="Cancel" class="btn btn-secondary" formaction="Index" />
+    </div>
+</form>
+
+@section scripts{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

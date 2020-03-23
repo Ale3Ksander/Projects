@@ -1,0 +1,18 @@
+﻿@model NinjaCore.Models.User
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<form asp-action="delete" asp-controller="home" asp-route-id="@Model.Id">
+    <div class="form-group">
+        <p>@Model.FirstName</p>
+        <p>@Model.LastName</p>
+        <p>@Model.Email</p>
+        <p>@Model.BirthDate.ToShortDateString()</p>
+    </div>
+    <div>
+        <input type="submit" value="Delete" class="btn btn-primary"/>
+        <a role="button" asp-action="Index" class="btn btn-primary">Cancel</a>
+    </div>
+</form>
+
