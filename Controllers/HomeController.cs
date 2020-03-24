@@ -74,11 +74,9 @@ namespace NinjaCore.Controllers
 
         [HttpPost]
         public IActionResult Delete(int id)
-        {
-            //User user = db.Users.FirstOrDefault(u => u.Id == id);
+        {            
             User user = db.Users.Find(id);
-            db.Users.Remove(user);
-            //db.Entry(user).State = EntityState.Deleted;
+            db.Users.Remove(user);            
             db.SaveChanges();
             return RedirectToAction("Index");       
         }

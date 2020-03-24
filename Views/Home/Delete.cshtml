@@ -11,8 +11,8 @@
         <p>@Model.BirthDate.ToShortDateString()</p>
     </div>
     <div>
-        <input type="submit" value="Delete" class="btn btn-primary"/>
-        <a role="button" asp-action="Index" class="btn btn-primary">Cancel</a>
+        <input type="submit" value="Delete" class="btn btn-primary" />
+        <a role="button" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Cancel</a>
     </div>
 </form>
 
