@@ -3,15 +3,15 @@
     ViewData["Title"] = "Delete";
 }
 
-<form asp-action="delete" asp-controller="home" asp-route-id="@Model.Id">
+<form asp-action="delete" asp-controller="home" asp-route-id="@Model.Id" class="mt-5 offset-sm-4">
     <div class="form-group">
         <p>@Model.FirstName</p>
         <p>@Model.LastName</p>
         <p>@Model.Email</p>
         <p>@Model.BirthDate.ToShortDateString()</p>
     </div>
-    <div>
-        <input type="submit" value="Delete" class="btn btn-primary" />
+    <div class="form-group mt-5">
+        <input type="submit" value="Delete" class="btn btn-primary mr-1" />
         <a role="button" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Cancel</a>
     </div>
 </form>

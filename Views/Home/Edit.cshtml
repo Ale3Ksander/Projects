@@ -3,27 +3,37 @@
     ViewBag.Title = "Edit";
 }
 
-<form asp-action="edit" asp-controller="home" asp-route-id="@Model.Id">
-    <div class="form-group">
-        <label asp-for="FirstName" class="control-label">First Name</label>
-        <input asp-for="FirstName" type="text" class="form-control" />
+<form asp-action="edit" asp-controller="home" asp-route-id="@Model.Id" class="mt-5">
+    <div class="form-group row">
+        <label asp-for="FirstName" class="col text-right col-sm-2 offset-sm-2 col-form-label">First Name</label>
+        <div class="col-sm-4">
+            <input asp-for="FirstName" type="text" class="form-control offset-1" placeholder="Text input" />
+        </div>
     </div>
-    <div class="form-group">
-        <label asp-for="LastName" class="control-label">Last Name</label>
-        <input asp-for="LastName" type="text" class="form-control" />
+    <div class="form-group row mt-1">
+        <label asp-for="LastName" class="col text-right col-sm-2 col-form-label offset-sm-2">Last Name</label>
+        <div class="col-sm-4">
+            <input asp-for="LastName" type="text" class="form-control offset-1" placeholder="Text input" />
+        </div>
     </div>
-    <div class="form-group">
-        <label asp-for="Email" class="control-label">Email</label>
-        <input asp-for="Email" type="email" class="form-control" />
+    <div class="form-group row mt-1">
+        <label asp-for="Email" class="col text-right col-sm-2 col-form-label offset-sm-2">Email</label>
+        <div class="col-sm-4">
+            <input asp-for="Email" type="email" class="form-control offset-1" placeholder="Text input" />
+        </div>
     </div>
-    <div class="form-group">
-        <label asp-for="BirthDate" class="control-label">Birth Date</label>
-        <input asp-for="BirthDate" type="date" class="form-control" />
+    <div class="form-group row mt-1">
+        <label asp-for="BirthDate" class="col text-right col-sm-2 col-form-label offset-sm-2">Birth Date</label>
+        <div class="col-sm-2">
+            <input asp-for="BirthDate" type="date" class="form-control offset-2" />
+        </div>
     </div>
-    <div class="form-group">
-        <input type="submit" value="Save" class="btn btn-primary" />
-        <a role="button" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-primary">Delete</a>
-        <a role="button" asp-action="Index" class="btn btn-primary">Cancel</a>     
+    <div class="form-group mt-5">
+        <div class="col-sm-7 offset-sm-4">
+            <input type="submit" value="Save" class="btn btn-primary ml-sm-4 mr-1" />
+            <a role="button" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-primary mr-1">Delete</a>
+            <a role="button" asp-action="Index" class="btn btn-primary">Cancel</a>
+        </div>
     </div>
 </form>
 

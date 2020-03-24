@@ -132,8 +132,6 @@ C:\Users\user\source\repos\NinjaCore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAn
 C:\Users\user\source\repos\NinjaCore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\user\source\repos\NinjaCore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\user\source\repos\NinjaCore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\user\source\repos\NinjaCore\obj\Debug\netcoreapp3.1\NinjaCore.csproj.CoreCompileInputs.cache
-C:\Users\user\source\repos\NinjaCore\obj\Debug\netcoreapp3.1\NinjaCore.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\user\source\repos\NinjaCore\obj\Debug\netcoreapp3.1\NinjaCore.Views.pdb
 C:\Users\user\source\repos\NinjaCore\obj\Debug\netcoreapp3.1\NinjaCore.dll
 C:\Users\user\source\repos\NinjaCore\obj\Debug\netcoreapp3.1\NinjaCore.pdb
@@ -144,3 +142,5 @@ C:\Users\user\source\repos\NinjaCore\obj\Debug\netcoreapp3.1\Razor\Views\Home\De
 C:\Users\user\source\repos\NinjaCore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Logo.cshtml.g.cs
 C:\Users\user\source\repos\NinjaCore\obj\Debug\netcoreapp3.1\NinjaCore.Properties.Resources.resources
 C:\Users\user\source\repos\NinjaCore\obj\Debug\netcoreapp3.1\NinjaCore.csproj.GenerateResource.cache
+C:\Users\user\source\repos\NinjaCore\obj\Debug\netcoreapp3.1\NinjaCore.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\NinjaCore\obj\Debug\netcoreapp3.1\NinjaCore.MvcApplicationPartsAssemblyInfo.cache
